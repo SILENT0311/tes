@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Warung Ojo Lali</title>
+</head>
+
+<body class="font-poppins">
+  <!-- Header Content Start -->
+  <header class="flex justify-center z-10">
+    <div class="bg-slate-100 fixed top-5 rounded-lg shadow-md  py-2 px-8">
+      <h1 class="font-semibold text-lg">Warung Ojo Lali</h1>
+    </div>
+  </header>
+  <!-- Header Content End -->
+
+  <!-- Hero Section Start -->
+  <section class="bg-red-500 container pt-20 pb-32">
+    <div class="bg-red-300 mx-auto w-10/12 rounded-lg shadow-lg py-4">
+      <h1 class="text-center bg-cyan-200 mx-12 px-4 py-2 rounded-lg font-semibold">Kontak Pesan</h1>
+      <form action="">
+        <ul>
+          <li class="bg-cyan-200 my-4 mx-4 px-4 py-3 rounded-lg flex flex-col">
+            <label for="ayamgeprek" class="text-base ">Ayam Geprek</label>
+            <select name="ayamgeprek" id="ayamgeprek"
+              class="mt-2 rounded-lg p-1 shadow-lg outline-none focus:ring-slate-500">
+              <option value="ayamsaja">Ayam Geprek Saja</option>
+              <option value="ayamnasi">Ayam Geprek + Nasi</option>
+              <option value="ayamsayur">Ayam Geprek + Sayur</option>
+              <option value="ayamkomplit">Ayam Geprek Komplit</option>
+            </select>
+          </li>
+          <li class="bg-cyan-200 my-4 mx-4 px-4 py-3 rounded-lg flex flex-col">
+            <label for="levelkepedasan" class="text-base ">Level Kepedasan</label>
+            <select name="levelkepedasan" id="levelkepedasan"
+              class="mt-2 rounded-lg p-1 shadow-lg outline-none focus:ring-slate-500">
+              <option value="manis">Manis</option>
+              <option value="sedang">Sedang</option>
+              <option value="pedas">Pedas</option>
+            </select>
+          </li>
+          <li class="bg-cyan-200 my-4 mx-4 px-4 py-3 rounded-lg flex flex-col">
+            <label for="minuman" class="text-base ">Minuman</label>
+            <select name="minuman" id="minuman" class="mt-2 rounded-lg p-1 shadow-lg outline-none focus:ring-slate-500">
+              <option value="tidak ada">Tidak Ada</option>
+              <option value="tehes">Teh Es</option>
+              <option value="jasjus">Jasjus</option>
+              <option value="nutrisari">Nutrisari</option>
+            </select>
+          </li>
+          <li class="bg-cyan-200 my-4 mx-4 px-4 py-3 rounded-lg flex flex-col">
+            <label for="ambilditempat" class="text-base ">Pesanan</label>
+            <select name="ambilditempat" id="ambilditempat"
+              class="mt-2 rounded-lg p-1 shadow-lg outline-none focus:ring-slate-500">
+              <option value="ambilditempat">Ambil Ditempat</option>
+              <option value="diantarkealamat">Diantar ke Alamat</option>
+            </select>
+          </li>
+          <li class="bg-cyan-200 my-4 mx-4 px-4 py-3 rounded-lg flex flex-col">
+            <label for="namapesan" class="text-base ">Nama Pesan</label>
+            <input type="text" id="namapesan" class="mt-2 rounded-lg p-1 shadow-lg outline-none focus:ring-slate-500">
+          </li>
+          <li class="bg-cyan-200 my-4 mx-4 px-4 py-3 rounded-lg flex flex-col">
+            <label for="pesankepenjual" class="text-base ">Pesan ke Penjual</label>
+            <textarea name="pesankepenjual" id="pesankepenjual" cols="10" rows="3"
+              class="mt-2 rounded-lg p-1 shadow-lg outline-none focus:ring-slate-500"></textarea>
+          </li>
+          <li class="bg-cyan-200 my-4 mx-20 px-2 py-2 rounded-lg flex flex-col">
+            <input type="button" value="Pesan">
+          </li>
+        </ul>
+      </form>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Navbar Content Start -->
+  <nav class="flex justify-center z-10">
+    <ul class="bg-slate-100 fixed bottom-5 rounded-lg shadow-md flex justify-center gap-x-6 px-7 py-2">
+      <li class="flex justify-center flex-col text-center">
+        <a href="#"
+          class="flex justify-center flex-col items-center shadow-xl bg-white ring-slate-500 rounded-full"><img
+            src="img/moon.svg" alt="moon" class="w-5 m-3"></a>
+        <p class="text-xs pt-2">Dark</p>
+      </li>
+      <li class="flex justify-center flex-col text-center">
+        <a href="#"
+          class="flex justify-center flex-col items-center shadow-xl bg-white ring-slate-500 rounded-full"><img
+            src="img/home.svg" alt="moon" class="w-5 m-3"></a>
+        <p class="text-xs pt-2">Home</p>
+      </li>
+      <li class="flex justify-center flex-col text-center">
+        <a href="#"
+          class="flex justify-center flex-col items-center shadow-xl bg-white ring-slate-500 rounded-full"><img
+            src="img/menu.svg" alt="moon" class="w-5 m-3"></a>
+        <p class="text-xs pt-2">Menu</p>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar Content End -->
+</body>
+
+</html>
