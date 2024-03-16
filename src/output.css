@@ -1110,7 +1110,7 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.ring-\[\#dae2eb\] {
+.ring-awan {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(218 226 235 / var(--tw-ring-opacity));
 }
@@ -1123,11 +1123,6 @@ video {
 .ring-slate-500 {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(100 116 139 / var(--tw-ring-opacity));
-}
-
-.ring-awan {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(218 226 235 / var(--tw-ring-opacity));
 }
 
 .neumorphism{
@@ -1143,15 +1138,4 @@ video {
 .focus\:bg-milk:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(235 238 241 / var(--tw-bg-opacity));
-}
-
-.focus\:ring:focus {
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-
-.focus\:ring-slate-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(100 116 139 / var(--tw-ring-opacity));
 }
