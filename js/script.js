@@ -62,7 +62,8 @@ Pesan ke penjual: ${valuePesanKePenjual}
 
 Terimakasih 👋`;
 
-  const memesan = `https://api.whatsapp.com/send?phone=${phone}&text= ${pesanPelanggan}`;
+  const encodedPesan = encodeURIComponent(pesanPelanggan);
+  const memesan = `https://api.whatsapp.com/send?phone=${phone}&text= ${encodedPesan}`;
 
   window.open(memesan, '_blank');
   // alert(totalHarga);
